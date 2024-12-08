@@ -1,6 +1,6 @@
 {
-  "name": "cmakelists-auto-generator",
-  "displayName": "CMakeLists auto-generator",
+  "name": "cmakelists-generator",
+  "displayName": "CMakeLists generator",
   "description": "automatically creates CMakeLists.txt with all current directory source (.c .cpp .h .hpp) files enumerated in \"add_executable\"",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "cmakelists-auto-generator.helloWorld",
-        "title": "Hello World"
+        "command": "cmakelists-generator.generateFileList",
+        "title": "cmakelists-generator: Generate File List"
       }
     ]
   },
