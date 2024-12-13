@@ -3,7 +3,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 export function activate(context: vscode.ExtensionContext) {
-    const disposable = vscode.commands.registerCommand('cmakelists-generator.generateFileList', async () => {
+    const disposable = vscode.commands.registerCommand('generateFileList', async () => {
         // Get the current workspace folder
         const folders = vscode.workspace.workspaceFolders;
 

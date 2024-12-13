@@ -14,7 +14,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "cmakelists-generator.generateFileList",
+        "command": "generateFileList",
         "title": "cmakelists-generator: Generate File List"
       }
     ]

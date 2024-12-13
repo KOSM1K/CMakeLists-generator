@@ -1,9 +1,13 @@
 # Change Log
 
-All notable changes to the "cmakelists-generator" extension will be documented in this file.
+## [0.0.1]
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+- Initial release!
+- Has 1 command - "cmakelists-generator: Generate File List"
+  
+  scans opened directory recursively, creates "CMakeLists.txt"
+  creates minimal-working file
 
-## [Unreleased]
+  if "CMakeLists.txt" already exists, then renames old file to "CMakeLists_old.txt"
 
-- Initial release
+  if "CMakeLists.txt" and "CMakeLists_old.txt" already exists, then deletes "CMakeLists_old.txt" and behaves same as if only "CMakeLists.txt" existed
